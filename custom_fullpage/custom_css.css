@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body {font-family: 'Paytone One', sans-serif;}
+
+#tocMenu  li{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  
+}
+                 
+.fp-controlArrow.fp-prev {
+  border-color: transparent #303030 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #303030;
+}
