@@ -11,8 +11,10 @@ options <- list(
                     '#ffc425',
                     '#fff'),
   parallax = TRUE,
-  navigation = TRUE,
-  fadingEffect = TRUE
+  navigation = FALSE,
+  navigationPosition = 'left',
+  fadingEffect = TRUE,
+  controlArrows = TRUE
 )
 
 

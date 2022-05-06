@@ -20,39 +20,33 @@ ui <- fullPage(
   fullSection(
     center = TRUE,
     menu = "intro",
-    tags$h1("This is the Intro page")
+    h1("This is the Intro page")
   ),
   
   # section 1
   fullSection(
     center = TRUE,
     menu = "s1",
-    tags$h1("This is Section 1")
+    h1("This is Section 1")
   ),
   
   # section 2
   fullSection(
     menu = "s2",
     fullSlide(
-      
         center = TRUE,
         h3("This is Section 2"),
         h3("Slide 1")
-     
     ),
     fullSlide(
-     
         center = TRUE,
         h3("This is Section 2"),
         h3("Slide 2")
-      
     ),
     fullSlide(
-      
         center = TRUE,
         h3("This is Section 2"),
         h3("Slide 3")
-      
     )
   ),
   
@@ -60,14 +54,14 @@ ui <- fullPage(
   fullSection(
     center = TRUE,
     menu = "s3",
-    tags$h1("This is Section 3")
+    h1("This is Section 3")
   ),
   
   # section 4
   fullSection(
     center = TRUE,
     menu = "s4",
-    tags$h1("This is Section 4")
+    h1("This is Section 4")
   ),
   
   # extra
