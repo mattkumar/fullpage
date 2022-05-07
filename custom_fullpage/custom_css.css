@@ -10,9 +10,16 @@ body {font-family: 'Paytone One', sans-serif;}
 }
                  
 .fp-controlArrow.fp-prev {
-  border-color: transparent #303030 transparent transparent;
-}
-
+        left: 22px;
+        border-width: 20px 20px 20px 20px;
+        color: transparent;
+        border-color: transparent #303030 transparent transparent;
+      }
+      
 .fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent #303030;
-}
+        right: 22px;
+        border-width: 20px 20px 20px 20px;
+        color: transparent;
+        border-color: transparent transparent transparent #303030;
+      }
+ 

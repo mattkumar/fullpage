@@ -40,8 +40,7 @@ ui <- fullPage(
     ),
     fullSlide(
         center = TRUE,
-        h3("This is Section 2"),
-        h3("Slide 2")
+        tags$iframe(src = "https://visard.shinyapps.io/osdm-mapper/", height="50%", width = "50%")
     ),
     fullSlide(
         center = TRUE,

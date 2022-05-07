@@ -1,6 +1,7 @@
 # Libs
 library(shiny)
 library(fullPage)
+library(highcharter)
 
 # Options for full Page
 options <- list(
@@ -11,8 +12,8 @@ options <- list(
                     '#ffc425',
                     '#fff'),
   parallax = TRUE,
-  navigation = FALSE,
-  navigationPosition = 'left',
+  navigation = TRUE,
+  navigationPosition = 'right',
   fadingEffect = TRUE,
   controlArrows = TRUE
 )
